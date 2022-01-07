@@ -1,0 +1,256 @@
+@media(max-width:1200px){
+    .hero-title{
+        font-size: 68px;
+    }
+
+    .content-wrap{
+        flex-wrap: wrap;
+        column-gap: 30px;
+    }
+
+    .content-text::before{
+        font-size: 140px;
+        line-height: 140px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .content-text{
+        max-width: 50%;
+    }
+
+    .content-img{
+        max-width: 45%;
+    }
+
+    .content-img img{
+        max-width: 100%;
+    }
+
+    .content-wrap {
+        margin-bottom: 70px;
+    }
+
+    .content-desc{
+        font-size: 16px;
+    }
+
+    .content-title{
+        font-size: 48px;
+        line-height: 66px;
+    }
+
+    .footer-title{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .footer-nav-more-mntn-list-item-link, .footer-nav-more-blog-list-item-link{
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .footer-desc-text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .footer-cop{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .footer-nav{
+        flex: 1 0 30%;
+    }
+
+    .footer-desc{
+        flex: 1 0 50%;
+    }
+}
+
+@media(max-width:800px){
+    .nav-menu, .login{
+        display: none;
+    }
+
+    .mobile-nav-btn{
+        display: block;
+    }
+
+    .mobile-nav .nav-menu,
+    .mobile-nav .login{
+        display: block;
+    }
+
+    .mobile-nav .nav-menu .nav-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-nav .nav-menu .nav-list .nav-list-item + *{
+        margin-top: 20px;
+    }
+
+    .mobile-nav-active{
+        display: flex;
+    }
+
+    .hero-title{
+        font-size: 38px;
+        line-height: 65px;
+    }
+
+    .hero-title-category::before{
+        width: 42px;
+    }
+
+    .hero-title-category{
+        font-size: 14px;
+        padding-left: 62px;
+    }
+
+    .nav{
+        margin-bottom: 100px;
+    }
+
+    .content-text{
+        padding-left: 15px;
+    }
+
+    .content-wrap{
+        flex-direction: column;
+    }
+
+    .content-img{
+        margin-top: 30px;
+    }
+
+    .footer-desc{
+        flex: 1 0 45%;
+    }
+
+    .footer-nav{
+        flex: 1 0 25%;
+    }
+
+    .footer-wrap{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-first-nav{
+        margin-right: 30px;
+    }
+
+    .footer-desc{
+        margin-top: 50px;
+    }
+
+    .header{
+        padding-bottom: 550px;
+    }
+}
+
+@media(max-width:525px){
+    .content-title{
+        font-size: 36px;
+        line-height: 56px;
+    }
+
+    .content-desc {
+        font-size: 14px;
+    }
+
+    .content-text::before {
+        font-size: 80px;
+        line-height: 80px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .content-subtitle::before{
+        width: 35px;
+    }
+
+    .content-subtitle{
+        font-size: 10px;
+        padding-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .content-text {
+        max-width: 100%;
+    }
+
+    .content-img {
+        max-width: 80%;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+    }
+
+    .footer-first-nav{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-second-nav{
+        margin-bottom: 30px;
+    }
+
+    .footer-desc-text{
+        margin-bottom: 50px;
+    }
+
+    .footer-first-nav{
+        text-align: center;
+    }
+
+    .footer-second-nav{
+        text-align: center;
+    }
+
+    .header {
+        padding-bottom: 320px;
+    }
+}
+
+@media(max-width:320px){
+    .content-desc{
+        font-size: 12px;
+    }
+
+    .content-text::before {
+        font-size: 50px;
+        line-height: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .content-subtitle::before {
+        width: 20px;
+    }
+
+    .content-subtitle{
+        padding-left: 35px;
+    }
+
+    .content-subtitle {
+        letter-spacing: 2px;
+    }
+
+    .content-title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .content-link{
+        font-size: 14px;
+    }
+
+    .header {
+        padding-bottom: 230px;
+    }
+}
